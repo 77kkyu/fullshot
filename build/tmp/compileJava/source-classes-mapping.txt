@@ -1,0 +1,4 @@
+com/example/fullshot/FullshotApplication.java
+ com.example.fullshot.FullshotApplication
+com/example/fullshot/controller/MainController.java
+ com.example.fullshot.controller.MainController
