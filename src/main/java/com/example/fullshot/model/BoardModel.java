@@ -26,6 +26,10 @@ public class BoardModel {
     @Column(name = "CONTENT")
     private String content;
 
+    @Lob
+    @Column(name = "DATE")
+    private String date;
+
 
 
 
