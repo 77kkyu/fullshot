@@ -1,13 +1,12 @@
 package com.example.fullshot.model;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.*;
 
 @Getter
 @Setter
+@ToString
 @NoArgsConstructor
 @Table(name = "BOARD")
 @Entity
@@ -30,8 +29,12 @@ public class BoardModel {
     @Column(name = "DATE")
     private String date;
 
-
-
-
+    @Builder
+    public BoardModel(Integer boardNo, String title, String content, String date) {
+        this.boardNo = boardNo;
+        this.title = title;
+        this.content = content;
+        this.date = date;
+    }
 
 }
