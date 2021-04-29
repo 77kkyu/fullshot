@@ -1,26 +1,27 @@
-com/example/fullshot/result/ResponseMessage.java
- com.example.fullshot.result.ResponseMessage
-com/example/fullshot/papa/login/model/Login.java
- com.example.fullshot.papa.login.model.Login
-com/example/fullshot/papa/login/controller/LoginController.java
- com.example.fullshot.papa.login.controller.LoginController
-com/example/fullshot/result1/ResponseVO.java
- com.example.fullshot.result1.ResponseVO
-com/example/fullshot/result/Result.java
- com.example.fullshot.result.Result
-com/example/fullshot/papa/login/mapper/loginMapper.java
- com.example.fullshot.papa.login.mapper.loginMapper
+com/example/fullshot/general/login/model/Login.java
+ com.example.fullshot.general.login.model.Login
+com/example/fullshot/common/result1/ResponseVO.java
+ com.example.fullshot.common.result1.ResponseVO
+com/example/fullshot/common/result/ResultCodeSet.java
+ com.example.fullshot.common.result.ResultCodeSet
 com/example/fullshot/FullshotApplication.java
  com.example.fullshot.FullshotApplication
-com/example/fullshot/papa/login/service/LoginService.java
- com.example.fullshot.papa.login.service.LoginService
-com/example/fullshot/result/FullshotResultModel.java
- com.example.fullshot.result.FullshotResultModel
-com/example/fullshot/controller/MainController.java
- com.example.fullshot.controller.MainController
-com/example/fullshot/exception/FullshotException.java
- com.example.fullshot.exception.FullshotException
-com/example/fullshot/result/ResultCodeSet.java
- com.example.fullshot.result.ResultCodeSet
-com/example/fullshot/model/BoardModel.java
- com.example.fullshot.model.BoardModel
+com/example/fullshot/general/login/service/LoginService.java
+ com.example.fullshot.general.login.service.LoginService
+com/example/fullshot/common/result/ResponseMessage.java
+ com.example.fullshot.common.result.ResponseMessage
+com/example/fullshot/common/result/Result.java
+ com.example.fullshot.common.result.Result
+com/example/fullshot/common/result/FullshotResultModel.java
+ com.example.fullshot.common.result.FullshotResultModel
+com/example/fullshot/general/login/model/User.java
+ com.example.fullshot.general.login.model.User
+ com.example.fullshot.general.login.model.User$UserBuilder
+com/example/fullshot/common/exception/FullshotException.java
+ com.example.fullshot.common.exception.FullshotException
+com/example/fullshot/general/login/mapper/loginMapper.java
+ com.example.fullshot.general.login.mapper.loginMapper
+com/example/fullshot/general/login/controller/LoginController.java
+ com.example.fullshot.general.login.controller.LoginController
+com/example/fullshot/general/login/UserRepository.java
+ com.example.fullshot.general.login.UserRepository
