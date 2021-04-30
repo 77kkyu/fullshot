@@ -20,8 +20,4 @@ public class User {
     @Column(name = "user_id", nullable = false, updatable = false)
     private String userId;
 
-
-
-
-
 }

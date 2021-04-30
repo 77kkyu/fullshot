@@ -30,6 +30,7 @@ dependencies {
     compile 'mysql:mysql-connector-java:8.0.23'
     annotationProcessor 'org.projectlombok:lombok:1.16.22'
     compileOnly 'org.projectlombok:lombok:1.16.22'
+    compile "org.projectlombok:lombok:1.16.22"
 
 }
 
