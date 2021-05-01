@@ -16,7 +16,6 @@ com/example/fullshot/common/result/FullshotResultModel.java
  com.example.fullshot.common.result.FullshotResultModel
 com/example/fullshot/general/login/model/User.java
  com.example.fullshot.general.login.model.User
- com.example.fullshot.general.login.model.User$UserBuilder
 com/example/fullshot/common/exception/FullshotException.java
  com.example.fullshot.common.exception.FullshotException
 com/example/fullshot/general/login/mapper/loginMapper.java
