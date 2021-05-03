@@ -13,7 +13,7 @@ public class User {
 
     @Id /* 해당 프로퍼티가 테이블의 primary key 역할을 한다는 것을 표현 */
     @GeneratedValue(strategy = GenerationType.IDENTITY) /* 기본 키 생성을 데이터베이스에 위임 / id값을 null로 하면 DB가 알아서 AUTO_INCREMENT 해준다.(Ex) MySQL, PostgreSQL, SQL Server DB2 등) */
-    private Integer no;
+    private Long no;
 
     @NonNull /* @NonNull을 허용하지 않을 경우 / @Nullable : null을 허용할 경우 */
     @Column(name = "user_id", nullable = false, updatable = false)
