@@ -11,6 +11,6 @@ public class Login {
 
     private String test;
 
-    private String test1;
+    private String test2;
 
 }
