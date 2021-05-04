@@ -13,4 +13,6 @@ public class Login {
 
     private String test4;
 
+    private String test5;
+
 }
