@@ -8,21 +8,21 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 
 
-@Data
-@Builder
-@AllArgsConstructor
-@NoArgsConstructor
-@Entity
+//@Data
+//@Builder
+//@AllArgsConstructor
+//@NoArgsConstructor
+//@Entity
 public class boardDTO {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer boardNo;
-
-    @Column(name = "TITLE", nullable = false, updatable = false)
-    private String title;
-
-    @Column(name = "CONTENT")
-    private String content;
+//    @Id
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    private Integer boardNo;
+//
+//    @Column(name = "TITLE", nullable = false, updatable = false)
+//    private String title;
+//
+//    @Column(name = "CONTENT")
+//    private String content;
 
 }
