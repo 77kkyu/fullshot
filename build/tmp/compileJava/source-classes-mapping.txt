@@ -4,16 +4,16 @@ com/example/fullshot/common/result1/ResponseVO.java
  com.example.fullshot.common.result1.ResponseVO
 com/example/fullshot/common/result/ResultCodeSet.java
  com.example.fullshot.common.result.ResultCodeSet
-com/example/fullshot/general/board/model/boardDTO.java
- com.example.fullshot.general.board.model.boardDTO
 com/example/fullshot/general/login/UserRepository.java
  com.example.fullshot.general.login.UserRepository
-com/example/fullshot/general/sample/service/TestSampleService.java
- com.example.fullshot.general.sample.service.TestSampleService
+com/example/fullshot/general/board/model/boardDTO.java
+ com.example.fullshot.general.board.model.boardDTO
+com/example/fullshot/general/login/controller/LoginController.java
+ com.example.fullshot.general.login.controller.LoginController
 com/example/fullshot/FullshotApplication.java
  com.example.fullshot.FullshotApplication
-com/example/fullshot/general/sample/controller/TestSampleController.java
- com.example.fullshot.general.sample.controller.TestSampleController
+com/example/fullshot/general/login/mapper/loginMapper.java
+ com.example.fullshot.general.login.mapper.loginMapper
 com/example/fullshot/general/login/service/LoginService.java
  com.example.fullshot.general.login.service.LoginService
 com/example/fullshot/common/result/ResponseMessage.java
@@ -28,9 +28,9 @@ com/example/fullshot/general/sample/model/TestSampleRepository.java
  com.example.fullshot.general.sample.model.TestSampleRepository
 com/example/fullshot/common/exception/FullshotException.java
  com.example.fullshot.common.exception.FullshotException
-com/example/fullshot/general/login/mapper/loginMapper.java
- com.example.fullshot.general.login.mapper.loginMapper
-com/example/fullshot/general/login/controller/LoginController.java
- com.example.fullshot.general.login.controller.LoginController
+com/example/fullshot/general/sample/controller/TestSampleController.java
+ com.example.fullshot.general.sample.controller.TestSampleController
+com/example/fullshot/general/sample/service/TestSampleService.java
+ com.example.fullshot.general.sample.service.TestSampleService
 com/example/fullshot/general/sample/model/TestSample.java
  com.example.fullshot.general.sample.model.TestSample
