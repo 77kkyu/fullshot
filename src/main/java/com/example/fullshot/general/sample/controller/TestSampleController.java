@@ -39,6 +39,9 @@ public class TestSampleController {
     @GetMapping(value = "/{id}", produces = { MediaType.APPLICATION_JSON_VALUE })
     public ResponseEntity<TestSample> getMember(@PathVariable("id") String id) {
         Optional<TestSample> aa = testSampleService.findById(id);
+//        TestSample bb = new TestSample();
+//        bb.setName(id);
+//        System.out.println("Test = " +bb.getName());
         return new ResponseEntity<TestSample>(aa.get(), HttpStatus.OK);
     }
 
