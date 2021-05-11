@@ -36,7 +36,7 @@ public class TestSampleController {
         return aa;
     }
 
-    @GetMapping(value = "/{id}", produces = { MediaType.APPLICATION_JSON_VALUE })
+    @GetMapping(value = "/read/{id}", produces = { MediaType.APPLICATION_JSON_VALUE })
     public ResponseEntity<TestSample> getMember(@PathVariable("id") String id) {
         Optional<TestSample> aa = testSampleService.findById(id);
 //        TestSample bb = new TestSample();
