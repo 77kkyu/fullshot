@@ -17,10 +17,10 @@ public class CommonBoardController {
     private final CommonBoardService commonBoardService;
 
     @GetMapping("/board")
-    public ResponseEntity<CommonBoardDTO> getBoard(@RequestParam("boardId") String boardId) {
+    public ResponseEntity<CommonBoardDTO> getBoard(@RequestParam("boardId") String boardId) throws Exception {
 
         CommonBoardDTO resultBoard = commonBoardService.selectBoard(boardId);
-        
+
         return new ResponseEntity<CommonBoardDTO>(resultBoard, HttpStatus.OK);
     }
 

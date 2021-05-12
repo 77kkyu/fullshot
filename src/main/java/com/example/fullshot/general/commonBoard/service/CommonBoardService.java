@@ -15,9 +15,9 @@ public class CommonBoardService {
 
     private final CommonBoardRepository commonBoardRepository;
 
-    public CommonBoardDTO selectBoard(String id) {
+    public CommonBoardDTO selectBoard(String id) throws Exception {
 
-        Optional<CommonBoardDTO> getBoard = commonBoardRepository.findById(id);
+        Optional<CommonBoardDTO> getBoard = Optional.ofNullable(commonBoardRepository.findById(id).orElseThrow(IllegalAccessError::new));
 
         return new CommonBoardDTO(getBoard.get());
     }
