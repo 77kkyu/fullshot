@@ -17,6 +17,7 @@ public class CommonBoardService {
 
     public CommonBoardDTO selectBoard(String id) throws Exception {
 
+        /* CommonBoardDTO에 객체가 없으면 nosuch에러뜸 그렇기 null이 들어갔을 때 IllegalAccessError Exception을 띄어준다. */
         Optional<CommonBoardDTO> getBoard = Optional.ofNullable(commonBoardRepository.findById(id).orElseThrow(IllegalAccessError::new));
 
         return new CommonBoardDTO(getBoard.get());
