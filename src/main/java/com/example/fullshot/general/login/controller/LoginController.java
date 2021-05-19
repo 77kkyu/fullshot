@@ -19,4 +19,9 @@ public class LoginController {
         return "test";
     }
 
+    @GetMapping("/join")
+    public String joinForm() {
+        return "join/joinForm";
+    }
+
 }
