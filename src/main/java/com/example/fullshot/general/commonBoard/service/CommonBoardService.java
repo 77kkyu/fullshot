@@ -23,4 +23,11 @@ public class CommonBoardService {
         return new CommonBoardDTO(getBoard.get());
     }
 
+    public CommonBoardDTO findByBoardId(String id) {
+
+        Optional<CommonBoardDTO> getBoardId = Optional.ofNullable(commonBoardRepository.findByBoardId(id));
+
+        return new CommonBoardDTO(getBoardId.get());
+    }
+
 }
