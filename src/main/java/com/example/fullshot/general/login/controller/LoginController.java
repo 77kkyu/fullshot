@@ -19,9 +19,9 @@ public class LoginController {
         return "test";
     }
 
-    @GetMapping("/join")
+    @GetMapping("/login")
     public String joinForm() {
-        return "join/joinForm";
+        return "login/login";
     }
 
 }

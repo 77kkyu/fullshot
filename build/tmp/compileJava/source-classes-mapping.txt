@@ -31,15 +31,17 @@ com/example/fullshot/general/login/model/User.java
  com.example.fullshot.general.login.model.User$UserBuilder
 com/example/fullshot/general/sample/model/TestSampleRepository.java
  com.example.fullshot.general.sample.model.TestSampleRepository
-com/example/fullshot/general/login/UserRepository.java
- com.example.fullshot.general.login.UserRepository
-com/example/fullshot/common/exception/FullshotException.java
- com.example.fullshot.common.exception.FullshotException
-com/example/fullshot/general/login/mapper/loginMapper.java
- com.example.fullshot.general.login.mapper.loginMapper
 com/example/fullshot/general/commonBoard/controller/CommonBoardController.java
  com.example.fullshot.general.commonBoard.controller.CommonBoardController
+com/example/fullshot/common/exception/FullshotException.java
+ com.example.fullshot.common.exception.FullshotException
 com/example/fullshot/general/commonBoard/service/CommonBoardService.java
  com.example.fullshot.general.commonBoard.service.CommonBoardService
+com/example/fullshot/general/login/mapper/loginMapper.java
+ com.example.fullshot.general.login.mapper.loginMapper
+com/example/fullshot/general/login/UserRepository.java
+ com.example.fullshot.general.login.UserRepository
+com/example/fullshot/general/jwt/JwtController.java
+ com.example.fullshot.general.jwt.JwtController
 com/example/fullshot/general/login/controller/LoginController.java
  com.example.fullshot.general.login.controller.LoginController

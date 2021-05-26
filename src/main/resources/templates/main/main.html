@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- Vendor js -->
+    <script src="/static/assets/js/vendor.min.js"></script>
+
+    <!-- Apex js-->
+    <script src="/static/assets/libs/apexcharts/apexcharts.min.js"></script>
+    <script src="/static/assets/libs/moment/min/moment.min.js"></script>
+    <script src="/static/assets/libs/jquery.scrollto/jquery.scrollTo.min.js"></script>
+
+    <!-- App js -->
+    <script src="/static/assets/js/app.js"></script>
+</head>
+<body>
+<div>
+    <h3>기본 문법 사용해보기</h3>
+    <table class="table table-centered mb-0" border=1>
+        <tr>
+            <th>번호</th>
+            <th>제목</th>
+            <th>저자</th>
+            <th>출판사</th>
+            <th>출판연도</th>
+            <th>상태변수</th>
+            <th>인덱스</th>
+            <th>홀짝</th>
+            <th>문자열합치기</th>
+            <th>시작/끝</th>
+        </tr>
+        <tr th:each="entry, status : ${msg}" th:style="${msg}? 'color:red;' : 'font-size:12px'">
+            <td th:text="${msg}"></td>
+            <td>[[${msg}]]</td>
+            <td th:text="${#strings.substring(msg, 2)}"></td>
+            <td th:text="${#strings.replace(msg, '사', '회사')}"></td>
+            <td th:text="${msg +'년'}"></td>
+            <td>[[${status}]]</td>
+            <td>[[${status.index}]]</td>
+            <th:block th:switch="${msg}">
+                <td th:case="true">홀수</td>
+                <td th:case="false">짝수</td>
+            </th:block>
+            <td th:if="${msg}" th:text="${#strings.concat(msg, msg)}"></td>
+            <td th:unless="${msg}">[[${#strings.length(entry.value.publishedYear)}]]</td>
+            <td>[[${status.first}]] / [[${status.last}]]</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
