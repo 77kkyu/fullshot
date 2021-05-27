@@ -1,6 +1,7 @@
 package com.example.fullshot.general.jwt.service;
 
 import io.jsonwebtoken.*;
+import org.springframework.stereotype.Service;
 
 import javax.crypto.spec.SecretKeySpec;
 import javax.servlet.http.HttpServletRequest;
@@ -10,6 +11,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+@Service
 public class JwtService {
 
     private String secretKey = "ThisisHyoJunSecretKeyWelcomeMyFirstJwt";
