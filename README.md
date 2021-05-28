@@ -7,10 +7,10 @@ React
 elk
 
 
-jwt
+jwt - 진행중
 
 
-JPA
+JPA - 진행중
 
 
 암복호화
